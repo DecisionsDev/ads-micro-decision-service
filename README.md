@@ -1,6 +1,6 @@
 # Executing decisions as microservices with Automation Decision Services in Kubernetes
 
-[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DecisionsDev/ads-microservice/dev.svg)](https://github.com/DecisionsDev/ads-micro-decision-service)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DecisionsDev/ads-micro-decision-service/main.svg)](https://github.com/DecisionsDev/ads-micro-decision-service)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Introduction

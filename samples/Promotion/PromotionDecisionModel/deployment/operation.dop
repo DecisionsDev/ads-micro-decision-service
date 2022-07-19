@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="PromotionDecisionModel">
+  <name>PromotionDecisionModel</name>
+  <uuid>9e72e6a5-c505-4f0e-8300-6bbf4e8345c6</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#b22c5862-416d-416e-85a2-2c327e372057"/>
+  <targetRuleProject href="../../PromotionDecisionModel#7ed414e3-0806-43be-a7a0-ab742c99140d"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["processEvent"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

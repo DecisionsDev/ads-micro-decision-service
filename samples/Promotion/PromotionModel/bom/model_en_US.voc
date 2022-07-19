@@ -1,0 +1,21 @@
+
+# ads.projects.airtransport.event.DutyFreePromotion
+ads.projects.airtransport.event.DutyFreePromotion#concept.label = DutyFreePromotion
+ads.projects.airtransport.event.DutyFreePromotion.DutyFreePromotion(java.lang.String,double)#phrase.navigation = a new {DutyFreePromotion} where {0, passenger} {1, rate}
+ads.projects.airtransport.event.DutyFreePromotion.passenger#phrase.action = set the passenger of {this} to {passenger}
+ads.projects.airtransport.event.DutyFreePromotion.passenger#phrase.navigation = {passenger} of {this}
+ads.projects.airtransport.event.DutyFreePromotion.rate#phrase.action = set the rate of {this} to {rate}
+ads.projects.airtransport.event.DutyFreePromotion.rate#phrase.addition_setter = add {rate} to the rate of {this}
+ads.projects.airtransport.event.DutyFreePromotion.rate#phrase.navigation = {rate} of {this}
+ads.projects.airtransport.event.DutyFreePromotion.rate#phrase.subtraction_setter = subtract {rate} from the rate of {this}
+
+# ads.projects.airtransport.event.FlightRegistration
+ads.projects.airtransport.event.FlightRegistration#concept.documentation = 
+ads.projects.airtransport.event.FlightRegistration#concept.label = FlightRegistration
+ads.projects.airtransport.event.FlightRegistration.FlightRegistration(java.lang.String,double)#phrase.navigation = a new {FlightRegistration} where {0, passenger} {1, price}
+ads.projects.airtransport.event.FlightRegistration.passenger#phrase.action = set the passenger of {this} to {passenger}
+ads.projects.airtransport.event.FlightRegistration.passenger#phrase.navigation = {passenger} of {this}
+ads.projects.airtransport.event.FlightRegistration.price#phrase.action = set the price of {this} to {price}
+ads.projects.airtransport.event.FlightRegistration.price#phrase.addition_setter = add {price} to the price of {this}
+ads.projects.airtransport.event.FlightRegistration.price#phrase.navigation = {price} of {this}
+ads.projects.airtransport.event.FlightRegistration.price#phrase.subtraction_setter = subtract {price} from the price of {this}

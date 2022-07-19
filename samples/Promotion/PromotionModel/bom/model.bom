@@ -1,0 +1,48 @@
+
+package ads.projects.airtransport.event;
+
+
+public class DutyFreePromotion
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "DutyFreePromotion"
+        property "de.generated" "true"
+{
+    public string passenger
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "passenger"
+                property update "true";
+    public double rate
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "rate"
+                property update "true";
+    public DutyFreePromotion(string passenger, double rate)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public DutyFreePromotion()
+                property "dataio.default" "true";
+}
+
+public class FlightRegistration
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "FlightRegistration"
+        property "de.generated" "true"
+{
+    public string passenger
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "passenger"
+                property update "true";
+    public double price
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "price"
+                property update "true";
+    public FlightRegistration(string passenger, double price)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public FlightRegistration()
+                property "dataio.default" "true";
+}
+

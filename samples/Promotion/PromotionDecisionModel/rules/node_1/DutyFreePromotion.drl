@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>DutyFreePromotion</name>
+  <uuid>4aeb2333-ca1b-40fb-8183-41e8d0267142</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the price is more than 500 then 
+	set decision to a new DutyFreePromotion where 
+		the passenger is the passenger of FlightRegistration,
+        the rate is 0.1;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

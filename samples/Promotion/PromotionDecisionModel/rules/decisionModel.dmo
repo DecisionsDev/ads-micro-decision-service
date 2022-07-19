@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>b22c5862-416d-416e-85a2-2c327e372057</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="FlightRegistration">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="ads.projects.airtransport.event.FlightRegistration" collection="false" name="FlightRegistration"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="FlightRegistration" typeRef="ads.projects.airtransport.event.FlightRegistration"/>
+    </inputData>
+    <decision id="node_1" name="Promotion">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="ads.projects.airtransport.event.FlightRegistration" collection="false" name="FlightRegistration"/>
+                <output bomType="ads.projects.airtransport.event.DutyFreePromotion" collection="false" name="Promotion"/>
+                <rule defaultRule="false" href="node_1/DutyFreePromotion.drl" kind="BusinessRule" name="DutyFreePromotion"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Promotion" typeRef="ads.projects.airtransport.event.DutyFreePromotion"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+    </decision>
+</definitions></definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>
